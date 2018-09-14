@@ -21,6 +21,8 @@ public class CHMapEx {
         while (iterator2.hasNext()) {
             System.out.println(premiumPhone.get(iterator2.next()));
         }
+        CHMapEx chmap = new CHMapEx();
+        System.out.println(chmap.toString());
         
     }
     
