@@ -8,7 +8,7 @@ public class CHMapEx {
         premiumPhone.put("Apple", "iPhone6");
         premiumPhone.put("HTC", "HTC one");
         premiumPhone.put("Samsung","S6");
-        
+        System.out.println("ConcurrentHashMap Test");
         Iterator iterator1 = premiumPhone.keySet().iterator();
         while (iterator1.hasNext()) {
             System.out.println(premiumPhone.get(iterator1.next()));
